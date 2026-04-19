@@ -1,0 +1,122 @@
+.buttons__74017 {
+  :is(
+    .buttonContainer_e6e74f,
+    .expression-picker-chat-input-button:nth-child(4),
+    > :first-child
+  ) {
+    display: none;
+  }
+}
+
+.userTagUsername__63ed3::before {
+  content: "@";
+}
+
+.repliedMessage_c19a55 .username_c19a55::after {
+  font-size: 0.875rem !important;
+}
+
+.sidebar__5e434 {
+  border-right: 1px solid var(--border-subtle);
+}
+
+.sidebarList__5e434 {
+  z-index: 10;
+}
+
+.guilds__5e434 {
+  margin-inline: 0 !important;
+}
+
+[data-list-id="guildsnav"] {
+  height: 100% !important;
+}
+
+.scroller__629e4 {
+  margin-right: 0 !important;
+
+  .sectionDivider__629e4 {
+    width: 100%;
+    margin-inline-start: 0;
+    display: none;
+  }
+
+  .container__0d0f9 {
+    padding-inline: 12px;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  &:not(:hover) {
+    scrollbar-width: none;
+
+    li {
+      padding-right: 8px;
+    }
+    .container__0d0f9 {
+      padding-right: 12px;
+    }
+  }
+}
+
+.container__2637a {
+  padding-bottom: 0;
+}
+.scroller__99e7c {
+  margin-bottom: 0;
+}
+.container__0d0f9 {
+  margin-inline: 0;
+}
+
+.container_c8ffbb {
+  position: fixed;
+  inset-block: calc(var(--custom-app-top-bar-height) + 1px) 0;
+  inset-inline-end: 0;
+  height: auto;
+  z-index: 100;
+}
+
+.chat_f75fb0:has(.container_c8ffbb:not(.hiddenMembers_c8ffbb)) {
+  .chatContent_f75fb0,
+  .upperContainer__9293f,
+  .wrapper_cb9592.minimum_cb9592 {
+    padding-right: 16.5rem !important;
+  }
+
+  .wrapper_cb9592.minimum_cb9592 .upperContainer__9293f {
+    padding-right: 0 !important;
+  }
+}
+
+.members_c8ffbb {
+  --custom-channel-members-bg: var(--background-base-lowest);
+
+  .member_c8ffbb {
+    margin: 2px 16px;
+  }
+
+  .name__703b9 {
+    font-family: var(--font-normal);
+    color: var(--channels-default);
+    -webkit-text-fill-color: unset;
+    background-image: unset;
+  }
+
+  .container_df39b2 {
+    display: none;
+  }
+
+  .membersGroup_c8ffbb {
+    font-size: 0.725em;
+    padding: 16px 16px 4px;
+  }
+}
+
+.mobileNavigationOpen__409aa {
+  background-color: var(--background-base-lowest);
+
+  .fixedContent__409aa::after {
+    display: none;
+  }
+}

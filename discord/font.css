@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --font-primary: "Atkinson Hyperlegible Next";
+  --font-display: "Atkinson Hyperlegible Next";
+}
+
+body {
+  font-weight: var(--font-weight-normal);
+}
+
+:is(strong, h1, h2, [class*="/bold"]) {
+  font-weight: var(--font-weight-bold) !important;
+
+  & * {
+    font-weight: var(--font-weight-bold) !important;
+  }
+}
+
+:is(
+  [class*="name"],
+  .username__703b9,
+  .username_c19a55,
+  .mention,
+  [class*="/medium"],
+  .timestamp_c19a55
+) {
+  font-weight: var(--font-weight-normal) !important;
+}
+
+:is(
+  .nickname__63ed3,
+  .container_dfb989 span,
+  h1 span,
+  h2 span
+) {
+  font-weight: var(--font-weight-bold) !important;
+}
+
+:is(.mention, .roleMention__75297) > span {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 0.25em;
+  clip-path: inset(0 0 0 1.2ch);
+  margin-left: -1ch;
+
+  > .vc-mentionAvatars-icon {
+    margin: 0;
+  }
+}

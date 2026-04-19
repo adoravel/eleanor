@@ -1,0 +1,107 @@
+.panels__5e434 {
+  overflow: hidden;
+  border: none;
+  max-width: 500px;
+
+  transition:
+    max-width var(--transition-speed) var(--transition-easing),
+    background var(--transition-speed) var(--transition-easing);
+
+  :is(.nameTag__37e49, .buttons__37e49, .wrapper_e131a9) {
+    transition:
+      opacity var(--transition-speed) var(--transition-easing),
+      max-height var(--transition-speed) var(--transition-easing);
+  }
+
+  &:not(:hover, :has(:hover)) {
+    max-width: 4rem;
+    background: none;
+    transition-delay: var(--transition-delay);
+
+    :is(.nameTag__37e49, .buttons__37e49, .wrapper_e131a9) {
+      opacity: 0;
+    }
+  }
+
+  &:is(:hover, :has(:hover)) {
+    transition-delay: 0s !important;
+    z-index: 1000;
+
+    :is(.nameTag__37e49, .buttons__37e49, .wrapper_e131a9) {
+      opacity: 1;
+    }
+  }
+}
+
+.audioButtonWithMenu__5e764 {
+  border-start-end-radius: 0 !important;
+  border-end-end-radius: 0 !important;
+}
+
+.buttonChevron__5e764 {
+  border-start-start-radius: 0 !important;
+  border-end-start-radius: 0 !important;
+}
+
+li:is(
+  [id^="chat-messages-1450828618233286696"],
+  [id^="chat-messages-1455192696867258593"],
+  [id^="chat-messages-1450826370774073374"]
+)
+  .botTag_c19a55 {
+  background: none;
+  padding: 0 0 0 1px !important;
+
+  > span {
+    font-weight: var(--font-weight-normal);
+    color: var(--text-subtle);
+    text-transform: none;
+    font-size: 0;
+
+    &::after {
+      content: "matrix";
+      font-size: 0.8rem;
+      line-height: 0.5rem;
+      vertical-align: middle;
+    }
+  }
+}
+
+.section__1f6ca {
+  padding-left: 0;
+}
+
+.embed__623de:has([href$="&lossless=true"]) * {
+  border-radius: 0 !important;
+}
+
+.vc-switch-slider > rect {
+  fill: var(--background-base-lowest);
+}
+
+.vc-switch-container:not(.vc-switch-checked) {
+  background-color: var(--background-base-lowest);
+  --primary-400: var(--background-base-lowest);
+
+  > .vc-switch-slider > rect {
+    fill: var(--text-default);
+  }
+}
+
+.switchIndicator_a28278 {
+  &:has(.thumb_a28278[style="left: 24px;"]) {
+    background-color: var(--background-brand) !important;
+  }
+
+  &:has(.thumb_a28278[style="left: 1px;"]) {
+    background-color: var(--background-base-lowest) !important;
+  }
+
+  > .thumb_a28278 > rect {
+    fill: var(--background-base-lowest);
+  }
+
+  > .thumb_a28278[style="left: 1px;"] > rect {
+    fill: var(--text-default);
+  }
+}

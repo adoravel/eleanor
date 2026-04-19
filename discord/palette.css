@@ -1,0 +1,98 @@
+.theme-dark, .theme-darker {
+  --background-base-lowest: #111114;
+  --background-base-lower: #16161c;
+  --background-base-low: #16161c;
+  --background-surface-high: #16161c;
+  --background-surface-higher: #16161c;
+  --user-profile-overlay-background: #16161c;
+  --card-background-default: transparent;
+  --chat-background-default: #1c1c24;
+  --background-mod-strong: #1c1c24;
+  --background-brand: #cba6f7;
+
+  --border-subtle: #2a2a35;
+  --border-muted: #2a2a35;
+  --app-frame-border: #2a2a35;
+
+  --brand-500: #cba6f7;
+  --badge-notification-background: #cba6f7;
+  --background-feedback-notification: #cba6f7;
+  --icon-feedback-warning: #cba6f7;
+  --blue-345: #cba6f7;
+  --guild-boosting-pink: #bdb6ec;
+  --icon-voice-muted: #cba6f7;
+
+  --brand-05a: rgba(74, 37, 122, 0.125);
+  --brand-10a: rgba(74, 37, 122, 0.2);
+
+  --text-default: #e8dfe8;
+  --text-muted: #999999;
+  --text-strong: #e8dfe8;
+  --text-link: #cba6f7;
+  --text-brand: #cba6f7;
+  --white: #f2f2f2;
+  --header-primary: #ffffff;
+  --header-secondary: #cccccc;
+  --channels-default: #cccccc;
+
+  --interactive-normal: #cccccc;
+  --interactive-hover: #e5e5e5;
+  --interactive-active: #e8dfe8;
+  --interactive-muted: #595959;
+
+  --message-mentioned-background-default: rgba(74, 37, 122, 0.125);
+  --message-mentioned-background-hover: rgba(74, 37, 122, 0.2);
+
+  --mention-background: rgba(74, 37, 122, 0.5);
+  --mention-foreground: #d8c2f5;
+
+  --reaction-background-reacted-default: rgba(74, 37, 122, 0.375);
+  --reaction-border-reacted-default: rgba(74, 37, 122, 1);
+  --reaction-text-reacted-default: #d8c2f5;
+
+  --opacity-red-12: rgba(74, 37, 122, 0.375);
+  --opacity-red-24: rgba(74, 37, 122, 0.825);
+
+  --checkbox-background-selected-default: #cba6f7;
+  --checkbox-background-selected-hover: #6b38a8;
+  --checkbox-icon-active: #1a0a2e;
+
+  --control-primary-background-default: #cba6f7 !important;
+  --control-primary-border-default: #cba6f7;
+  --control-primary-text-default: #1a0a2e;
+  --control-primary-background-hover: #4a257a !important;
+  --control-primary-border-hover: #6b38a8;
+  --control-primary-text-hover: #d8c2f5;
+
+  --control-secondary-background-default: #1c1c24 !important;
+  --control-secondary-border-default: #1c1c24;
+  --control-secondary-text-default: #999999;
+
+  --control-connected-background-default: #bdb6ec !important;
+  --control-connected-border-default: #bdb6ec;
+  --control-connected-text-default: #2c2843;
+  --control-connected-background-hover: #b2aae9 !important;
+  --control-connected-border-hover: #b2aae9;
+  --control-connected-text-hover: #2c2843;
+
+  --input-border-active: #b2aae9;
+
+  --scrollbar-auto-thumb: var(--border-subtle);
+  --scrollbar-auto-track: var(--background-base-lower);
+}
+
+.barBase__0f481,
+[role="treeitem"],
+.lowerBadge_cc5dd2,
+#---new-messages-bar,
+.botTag__5d473,
+.botTagRegular__82f07,
+.botTag__82f07,
+.px__82f07,
+.mention:hover,
+.mentionsBadge__933a1,
+.iconBase__933a1,
+.item__133bf,
+.activeIcon_d40c56 {
+  --white: var(--background-base-lowest);
+}
