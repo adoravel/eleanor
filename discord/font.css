@@ -9,7 +9,7 @@ body {
   font-weight: var(--font-weight-normal);
 }
 
-:is(strong, h1, h2, [class*="/bold"]) {
+bold, strong, h1, h2, [class*="/bold"] {
   font-weight: var(--font-weight-bold) !important;
 
   & * {
@@ -17,14 +17,14 @@ body {
   }
 }
 
-:is(
-  [class*="name"],
-  .username__703b9,
-  .username_c19a55,
-  .mention,
-  [class*="/medium"],
-  .timestamp_c19a55
-) {
+[class*="name"],
+span,
+div,
+.username__703b9,
+.username_c19a55,
+.mention,
+[class*="/medium"],
+.timestamp_c19a55 {
   font-weight: var(--font-weight-normal) !important;
 }
 

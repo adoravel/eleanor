@@ -57,12 +57,12 @@
   --checkbox-background-selected-hover: #6b38a8;
   --checkbox-icon-active: #1a0a2e;
 
-  --control-primary-background-default: #cba6f7 !important;
-  --control-primary-border-default: #cba6f7;
-  --control-primary-text-default: #1a0a2e;
-  --control-primary-background-hover: #4a257a !important;
+  --control-primary-background-default: var(--profile-gradient-button-color, #cba6f7);
+  --control-primary-text-default: var(--custom-theme-base-color-light, #1a0a2e);
+  --control-primary-border-default: var(--profile-gradient-button-color, #cba6f7);  
+
+  --control-primary-background-hover: #4a257a;
   --control-primary-border-hover: #6b38a8;
-  --control-primary-text-hover: #d8c2f5;
 
   --control-secondary-background-default: #1c1c24 !important;
   --control-secondary-border-default: #1c1c24;
@@ -79,6 +79,10 @@
 
   --scrollbar-auto-thumb: var(--border-subtle);
   --scrollbar-auto-track: var(--background-base-lower);
+}
+
+.profile__9c3be {
+  --control-primary-text-default: var(--white);
 }
 
 .barBase__0f481,
