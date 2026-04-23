@@ -53,7 +53,7 @@ li:is(
   padding: 0 0 0 1px !important;
 
   > span {
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-normal, 400);
     color: var(--text-subtle);
     text-transform: none;
     font-size: 0;
