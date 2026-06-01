@@ -6,15 +6,12 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [update_class]
-  push:
-    branches:
-      - main
 
 jobs:
   class-update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       
       - id: update
         uses: metro420yt/class-update@v1
@@ -24,7 +21,7 @@ jobs:
           diff: 'https://raw.githubusercontent.com/SyndiShanX/Update-Classes/main/Changes.txt'
           
       - uses: EndBug/add-and-commit@v10
-        if: ${{steps.update.outputs.changed}}
+        if: ${{steps.update.outputs.changed || steps.update.outputs.totalChanges > 0}}
         with:
           default_author: github_actions
           message: "chore: update classes >w<"
