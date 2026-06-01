@@ -3,9 +3,11 @@ name: Update Classes
 on:
   schedule:
     - cron: "0 */24 * * *"
-  workfow_dispatch:
+  workflow_dispatch:
   repository_dispatch:
     types: [update_class]
+  push:
+    - main
 
 jobs:
   class-update:
