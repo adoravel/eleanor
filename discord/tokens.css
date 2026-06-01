@@ -1,10 +1,12 @@
 :root {
+  container-type: normal;
+
+  --rounded-ui: on;
+
   --roundness: 36px;
   --roundness-lg: calc(var(--roundness) / 1.5);
   --roundness-md: calc(var(--roundness) / 4.5);
   --roundness-sm: calc(var(--roundness) / 9);
-
-  --rounded-ui: on;
 
   --font-weight-normal: 400;
   --font-weight-bold: 600;

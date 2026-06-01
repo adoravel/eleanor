@@ -1,13 +1,3 @@
-.buttons__74017 {
-  :is(
-    .buttonContainer_e6e74f,
-    .expression-picker-chat-input-button:nth-child(4),
-    > :first-child
-  ) {
-    display: none;
-  }
-}
-
 .userTagUsername__63ed3::before {
   content: "@";
 }
@@ -92,8 +82,17 @@
 .members_c8ffbb {
   --custom-channel-members-bg: var(--background-base-lowest);
 
+  .container_df39b2 {
+    display: none;
+  }
+
   .member_c8ffbb {
     margin: 2px 16px;
+  }
+
+  .membersGroup_c8ffbb {
+    font-size: 0.725em;
+    padding: 16px 16px 4px;
   }
 
   .name__703b9 {
@@ -101,15 +100,6 @@
     color: var(--channels-default);
     -webkit-text-fill-color: unset;
     background-image: unset;
-  }
-
-  .container_df39b2 {
-    display: none;
-  }
-
-  .membersGroup_c8ffbb {
-    font-size: 0.725em;
-    padding: 16px 16px 4px;
   }
 }
 

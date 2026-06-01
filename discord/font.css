@@ -11,6 +11,7 @@ body {
   font-weight: var(--font-weight-normal);
 }
 
+/* enforce heavy weights on display/header contexts */
 bold, strong, h1, h2, [class*="/bold"] {
   font-weight: var(--font-weight-bold) !important;
 
@@ -19,13 +20,13 @@ bold, strong, h1, h2, [class*="/bold"] {
   }
 }
 
-[class*="name"],
 span,
 div,
+[class*="name"],
+[class*="/medium"],
 .username__703b9,
 .username_c19a55,
 .mention,
-[class*="/medium"],
 .timestamp_c19a55 {
   font-weight: var(--font-weight-normal) !important;
 }

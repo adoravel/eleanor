@@ -57,9 +57,15 @@
   --checkbox-background-selected-hover: #6b38a8;
   --checkbox-icon-active: #1a0a2e;
 
-  --control-primary-background-default: var(--profile-gradient-button-color, #cba6f7);
+  --control-primary-background-default: var(
+    --profile-gradient-button-color,
+    #cba6f7
+  );
   --control-primary-text-default: var(--custom-theme-base-color-light, #1a0a2e);
-  --control-primary-border-default: var(--profile-gradient-button-color, #cba6f7);  
+  --control-primary-border-default: var(
+    --profile-gradient-button-color,
+    #cba6f7
+  );
 
   --control-primary-background-hover: #4a257a;
   --control-primary-border-hover: #6b38a8;

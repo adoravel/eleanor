@@ -1,3 +1,4 @@
+/* user panel */
 .panels__5e434 {
   overflow: hidden;
   border: none;
@@ -43,38 +44,16 @@
   border-end-start-radius: 0 !important;
 }
 
-li:is(
-  [id^="chat-messages-1450828618233286696"],
-  [id^="chat-messages-1455192696867258593"],
-  [id^="chat-messages-1450826370774073374"]
-)
-  .botTag_c19a55 {
-  background: none;
-  padding: 0 0 0 1px !important;
-
-  > span {
-    font-weight: var(--font-weight-normal, 400);
-    color: var(--text-subtle);
-    text-transform: none;
-    font-size: 0;
-
-    &::after {
-      content: "matrix";
-      font-size: 0.8rem;
-      line-height: 0.5rem;
-      vertical-align: middle;
-    }
-  }
-}
-
 .section__1f6ca {
   padding-left: 0;
 }
 
+/* fakenitro tweaks */
 .embed__623de:has([href$="&lossless=true"]) * {
   border-radius: 0 !important;
 }
 
+/* vencord */
 .vc-switch-slider > rect {
   fill: var(--background-base-lowest);
 }
@@ -88,6 +67,7 @@ li:is(
   }
 }
 
+/* switches */
 .switchIndicator_a28278 {
   &:has(.thumb_a28278[style="left: 24px;"]) {
     background-color: var(--background-brand) !important;
