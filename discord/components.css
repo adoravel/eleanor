@@ -17,10 +17,8 @@
   :is(.wrapper_e131a9, .fitInAccount_df39b2) {
     overflow: hidden;
     transition:
-      opacity var(--transition-speed) var(--transition-easing),
       max-height var(--transition-speed) var(--transition-easing),
-      margin var(--transition-speed) var(--transition-easing),
-      padding var(--transition-speed) var(--transition-easing);
+      opacity var(--transition-speed) var(--transition-easing);
   }
 
   &:not(:hover) {
@@ -65,14 +63,16 @@
   }
 }
 
-.audioButtonWithMenu__5e764 {
-  border-start-end-radius: 0 !important;
-  border-end-end-radius: 0 !important;
-}
-
-.buttonChevron__5e764 {
-  border-start-start-radius: 0 !important;
-  border-end-start-radius: 0 !important;
+.buttons__37e49 > .hasColorGlow__5e764 {
+  > [role="switch"] {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  > [type="button"]:not([role="switch"]) {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    width: 2em;
+  }
 }
 
 .section__1f6ca {
