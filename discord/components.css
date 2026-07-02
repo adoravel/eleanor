@@ -3,34 +3,65 @@
   overflow: hidden;
   border: none;
   max-width: 500px;
+  white-space: nowrap;
+  will-change: max-width;
 
   transition:
     max-width var(--transition-speed) var(--transition-easing),
     background var(--transition-speed) var(--transition-easing);
 
-  :is(.nameTag__37e49, .buttons__37e49, .wrapper_e131a9, .fitInAccount_df39b2) {
-    transition:
-      opacity var(--transition-speed) var(--transition-easing),
-      max-height var(--transition-speed) var(--transition-easing);
+  :is(.nameTag__37e49, .buttons__37e49) {
+    transition: opacity var(--transition-speed) var(--transition-easing);
   }
 
-  &:not(:hover, :has(:hover)) {
+  :is(.wrapper_e131a9, .fitInAccount_df39b2) {
+    overflow: hidden;
+    transition:
+      opacity var(--transition-speed) var(--transition-easing),
+      max-height var(--transition-speed) var(--transition-easing),
+      margin var(--transition-speed) var(--transition-easing),
+      padding var(--transition-speed) var(--transition-easing);
+  }
+
+  &:not(:hover) {
     max-width: 4rem;
     background: none;
     transition-delay: var(--transition-delay);
 
-    :is(.nameTag__37e49, .buttons__37e49, .wrapper_e131a9, .fitInAccount_df39b2) {
+    :is(.nameTag__37e49, .buttons__37e49) {
       opacity: 0;
+      pointer-events: none;
+      transition-delay: var(--transition-delay);
+    }
+
+    :is(.wrapper_e131a9, .fitInAccount_df39b2) {
+      opacity: 0;
+      max-height: 1.5em !important;
+      pointer-events: none;
+      transition-delay: var(--transition-delay);
     }
   }
 
-  &:is(:hover, :has(:hover)) {
+  &:hover {
     transition-delay: 0s !important;
     z-index: 1000;
 
-    :is(.nameTag__37e49, .buttons__37e49, .wrapper_e131a9) {
+    :is(.nameTag__37e49, .buttons__37e49) {
       opacity: 1;
+      pointer-events: auto;
+      transition-delay: 0s !important;
     }
+
+    :is(.wrapper_e131a9, .fitInAccount_df39b2) {
+      opacity: 1;
+      max-height: 16rem;
+      pointer-events: auto;
+      transition-delay: 0s !important;
+    }
+  }
+
+  .container_e131a9 {
+    border-bottom: none;
   }
 }
 

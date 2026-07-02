@@ -1,6 +1,14 @@
 body {
-  --font-primary: 'Atkinson Hyperlegible Next Thorn', 'gg sans', system-ui, sans-serif;
-  --font-display: 'Atkinson Hyperlegible Next Thorn', 'gg sans', system-ui, sans-serif;
+  --font-primary:
+    "Atkinson Hyperlegible Next Thorn",
+    "gg sans",
+    system-ui,
+    sans-serif;
+  --font-display:
+    "Atkinson Hyperlegible Next Thorn",
+    "gg sans",
+    system-ui,
+    sans-serif;
   font-variant-ligatures: discretionary-ligatures;
   font-feature-settings: "dlig" 1;
 }
