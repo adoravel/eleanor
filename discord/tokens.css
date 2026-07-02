@@ -13,6 +13,6 @@
   letter-spacing: -0.009rem;
 
   --transition-speed: 0.25s;
-  --transition-delay: 0.8s;
+  --transition-delay: 0.5s;
   --transition-easing: ease-in-out;
 }

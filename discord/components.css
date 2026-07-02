@@ -8,7 +8,7 @@
     max-width var(--transition-speed) var(--transition-easing),
     background var(--transition-speed) var(--transition-easing);
 
-  :is(.nameTag__37e49, .buttons__37e49, .wrapper_e131a9) {
+  :is(.nameTag__37e49, .buttons__37e49, .wrapper_e131a9, .fitInAccount_df39b2) {
     transition:
       opacity var(--transition-speed) var(--transition-easing),
       max-height var(--transition-speed) var(--transition-easing);
@@ -19,7 +19,7 @@
     background: none;
     transition-delay: var(--transition-delay);
 
-    :is(.nameTag__37e49, .buttons__37e49, .wrapper_e131a9) {
+    :is(.nameTag__37e49, .buttons__37e49, .wrapper_e131a9, .fitInAccount_df39b2) {
       opacity: 0;
     }
   }
