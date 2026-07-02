@@ -1,17 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap");
+body {
+  --font-primary: 'Atkinson Hyperlegible Next Thorn', 'gg sans', system-ui, sans-serif;
+  --font-display: 'Atkinson Hyperlegible Next Thorn', 'gg sans', system-ui, sans-serif;
+  font-variant-ligatures: discretionary-ligatures;
+  font-feature-settings: "dlig" 1;
+}
 
-:root {
-  --font-primary: "Atkinson Hyperlegible Next";
-  --font-display: "Atkinson Hyperlegible Next";
-  --font-weight-normal: 600;
-  --font-weight-bold: 900;
+code,
+kbd,
+pre,
+samp,
+input,
+textarea {
+  font-variant-ligatures: normal;
+  font-feature-settings: "dlig" 0;
 }
 
 body {
   font-weight: var(--font-weight-normal);
 }
 
-/* enforce heavy weights on display/header contexts */
 bold, strong, h1, h2, [class*="/bold"] {
   font-weight: var(--font-weight-bold) !important;
 

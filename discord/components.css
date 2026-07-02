@@ -48,11 +48,6 @@
   padding-left: 0;
 }
 
-/* fakenitro tweaks */
-.embed__623de:has([href$="&lossless=true"]) * {
-  border-radius: 0 !important;
-}
-
 /* vencord */
 .vc-switch-slider > rect {
   fill: var(--background-base-lowest);
