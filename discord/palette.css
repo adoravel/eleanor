@@ -53,7 +53,12 @@
   --opacity-red-12: rgba(74, 37, 122, 0.375);
   --opacity-red-24: rgba(74, 37, 122, 0.825);
   --red-400: #cba6f7;
+  --control-critical-secondary-text-default: #cba6f7;
+  --control-critical-secondary-text-hover: #6b38a8;
 
+  --radio-background-selected-default: #cba6f7;
+  --radio-background-selected-hover: #6b38a8;
+  --radio-thumb-background-active: #111114;
   --checkbox-background-selected-default: #cba6f7;
   --checkbox-background-selected-hover: #6b38a8;
   --checkbox-icon-active: #1a0a2e;
@@ -104,6 +109,7 @@
 .mentionsBadge__933a1,
 .iconBase__933a1,
 .item__133bf,
-.activeIcon_d40c56 {
+.activeIcon_d40c56,
+.newTextBadge__53965 {
   --white: var(--background-base-lowest);
 }
