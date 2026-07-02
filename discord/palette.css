@@ -53,6 +53,8 @@
   --opacity-red-12: rgba(74, 37, 122, 0.375);
   --opacity-red-24: rgba(74, 37, 122, 0.825);
   --red-400: #cba6f7;
+  --red-460: #cba6f7;
+  --primary-230: #111114;
   --control-critical-secondary-text-default: #cba6f7;
   --control-critical-secondary-text-hover: #6b38a8;
 
@@ -91,6 +93,10 @@
 
   --scrollbar-auto-thumb: var(--border-subtle);
   --scrollbar-auto-track: var(--background-base-lower);
+
+  --background-feedback-warning: rgba(74, 37, 122, 0.125);
+  --text-feedback-warning: #cba6f7;
+  --yellow-new-38: #cba6f7;
 }
 
 .profile__9c3be {
