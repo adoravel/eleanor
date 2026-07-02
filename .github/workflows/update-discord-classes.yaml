@@ -7,19 +7,22 @@ on:
   repository_dispatch:
     types: [update_class]
 
+permissions:
+  contents: write
+  
 jobs:
   class-update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      
+
       - id: update
         uses: metro420yt/class-update@v1
         with:
           folder: discord
           ext: css
-          diff: 'https://raw.githubusercontent.com/SyndiShanX/Update-Classes/main/Changes.txt'
-          
+          diff: "https://raw.githubusercontent.com/SyndiShanX/Update-Classes/main/Changes.txt"
+
       - uses: EndBug/add-and-commit@v10
         if: ${{steps.update.outputs.changed || steps.update.outputs.totalChanges > 0}}
         with:
