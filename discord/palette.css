@@ -116,6 +116,9 @@
 .iconBase__933a1,
 .item__133bf,
 .activeIcon_d40c56,
-.newTextBadge__53965 {
+.newTextBadge__53965,
+.unreadMentionsBar_ef3116,
+.numberBadge__463b7 {
   --white: var(--background-base-lowest);
+  --text-overlay-light: var(--background-base-lowest);
 }

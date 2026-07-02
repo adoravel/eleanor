@@ -35,7 +35,8 @@
   .vc-settings-quickActions-pill,
   .buttonSection__1405b,
   .circleIconButton__5bc7e,
-  .iconSizeMini_f34534 {
+  .iconSizeMini_f34534,
+  .custom-user-profile-theme .container_a99829 {
     border-radius: var(--roundness) !important;
   }
 
@@ -53,10 +54,6 @@
     padding: 1px 7px !important;
   }
 
-  .overlay_c0bea0, .input__0ed4f, .wrapper__72c38 {
-    padding: calc(var(--roundness) / 3) calc(var(--roundness) / 2);
-  }
-
   .channelTextArea_f75fb0, .channelTextArea__74017 {
     background: none;
     border: none;
@@ -72,7 +69,7 @@
     }
   }
 
-  .overlay_c0bea0, .embed__623de {
+  .embed__623de {
     border-radius: var(--roundness-lg);
   }
 
